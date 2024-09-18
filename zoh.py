@@ -13,3 +13,6 @@ def roll_dice(num_dice):
         roll = random.randint(1, 6)
         roll_results.append(roll)
     return roll_results
+
+
+print(roll_results)
