@@ -3,12 +3,12 @@ class Main{
   public static void main(String harsh[]){
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter first number");
-    double num1 = sc.nextDouble();
+    int num1 = sc.nextDouble();
     System.out.println("Enter second number");
-    double num2 = sc.nextDouble();
+    int num2 = sc.nextDouble();
     System.out.println("Choose an operation: +, -, *, /");
     char op = sc.next().charAt(0);
-    double result;
+    int result;
 
     switch(op) {
       case '+':
